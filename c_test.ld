@@ -1,7 +1,7 @@
 ENTRY(_start)
-OUTPUT(bootloader)
+OUTPUT(c_test)
 STARTUP(start.o)
-INPUT(bootloader.o)
+INPUT(c_test.o)
 
 SECTIONS
 {
